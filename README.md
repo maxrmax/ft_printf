@@ -1,14 +1,14 @@
 # printf
-Program name:     libftprintf.a
-Turn in files:     Makefile, *.h, */*.h, *.c, */*.c
-Makefile:          NAME, all, clean, fclean, re
-External functs.:  malloc, free, write, va_start, va_arg, va_copy, va_end
-Libft is authorized
-Description: Write a library that contains ft_printf(), a function that will mimic the original printf().
-You have to recode the printf() function from libc.
+- Program name:     libftprintf.a
+- Turn in files:     Makefile, *.h, */*.h, *.c, */*.c
+- Makefile:          NAME, all, clean, fclean, re
+- External functs.:  malloc, free, write, va_start, va_arg, va_copy, va_end
+- Libft is authorized
+- Description: Write a library that contains ft_printf(), a function that will mimic the original printf().
+- You have to recode the printf() function from libc.
 
 The prototype of ft_printf() is:
-int ft_printf(const char *, ...);
+`int ft_printf(const char *, ...);`
 
 Here are the requirements:
 - Don’t implement the buffer management of the original printf().
